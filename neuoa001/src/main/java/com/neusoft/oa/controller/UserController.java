@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 	@RequestMapping("/ok")
 	public String ok() {
-		return "ok";
+		return "okAndOk";
 	}
 
 }
